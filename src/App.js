@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import JsonEditor from './components/JsonEditor';
 import JsonViewer from './components/JsonViewer';
 
@@ -8,6 +8,10 @@ const App = () => {
   const handleJsonUpdate = (data) => {
     setJsonData(data);
   };
+
+  useEffect(() => {
+    document.title = 'JSON Viewer and Beautifier';
+  }, []);
 
   return (
     <div style={{ padding: '20px' }}>
