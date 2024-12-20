@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/JSON-Beautifier/static/css/main.ac28d497.css",
+    "main.js": "/JSON-Beautifier/static/js/main.dd2b965b.js",
+    "index.html": "/JSON-Beautifier/index.html",
+    "main.ac28d497.css.map": "/JSON-Beautifier/static/css/main.ac28d497.css.map",
+    "main.dd2b965b.js.map": "/JSON-Beautifier/static/js/main.dd2b965b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac28d497.css",
+    "static/js/main.dd2b965b.js"
+  ]
+}
