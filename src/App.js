@@ -20,6 +20,17 @@ const App = () => {
       <p></p>
       <p></p>
       <JsonViewer jsonData={jsonData} />
+      <p></p>
+      <p></p>
+      <p></p>
+      <div className='author-container'>
+        <p className='bottom-text'>
+          Developed with ❤️ by
+          <a href="https://github.com/shouvikbj" target="_blank" rel="noopener noreferrer">
+            {' '}<i>Shouvik Bajpayee</i>{' '}<i class="fas fa-external-link-alt"></i>
+          </a>
+        </p>
+      </div>
     </div>
   );
 };
